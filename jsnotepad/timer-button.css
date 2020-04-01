@@ -1,0 +1,74 @@
+.notepad-gld-goto{
+    width:100%;
+    height:100%;
+    left: 0;
+    top: 0;
+    position:fixed;
+    z-index: 10;
+}
+.notepad-gld-goto .dialogbox{
+    border: 1px solid #0f7fdb;
+    box-shadow: 10px 10px 10px #d6d6d6;
+    box-sizing: border-box;
+    cursor:default;
+    height:160px;
+    width: 293px;
+    margin:0 auto;
+    top: 100px;
+    position: relative;
+    user-select: none;
+}
+
+.notepad-gld-goto .titlebar{
+    background-color: white;
+    font-size: 1.3em;
+    height: 30px;
+}
+
+.notepad-gld-goto .title{
+    left: 10px;
+    line-height: 30px;
+    position: absolute;
+    margin: 0;
+}
+
+.notepad-gld-goto .close-btn{
+    color: gray;
+    line-height: 30px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 30px;
+}
+
+.notepad-gld-goto .main{
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+    height: 128px;
+    padding: 12px;
+    position: relative;
+}
+
+.notepad-gld-goto .txt-line-num{
+    box-sizing:border-box;
+    height: 30px;
+    width: 265px;
+    margin: 10px 0;
+}
+
+.notepad-gld-goto input[type='button']{
+    width: 86px;
+    height: 26px;
+}
+
+.notepad-gld-goto .btn-goto{
+    position: absolute;
+    right: 108px;
+    bottom:16px;
+}
+
+.notepad-gld-goto .btn-cancel{
+    position: absolute;
+    right: 14px;
+    bottom:16px;
+}
