@@ -1,6 +1,5 @@
 var $dlgGoto = (function () {
-    var html = ''
-        + '<div class="notepad-gld-goto">'
+    var html = '<div class="notepad-gld-goto">'
         + '<div class="dialogbox">'
         + '<div class="titlebar">'
         + '<p class="title">转到指定行</p>'
